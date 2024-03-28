@@ -1,0 +1,68 @@
+/* Se importa el estilo de letras */
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montagu Slab", serif;
+}
+
+body {
+    background: #5271FF;
+}
+
+/*container*/
+.container {
+    padding: 10px 100px;
+}
+
+/*img*/
+.img {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*name*/
+.name{
+    border-top: 5px solid #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* .sentence */
+.sentence {
+    margin: 0 auto; /* Esto centrará el h3 horizontalmente */
+    text-align: center; 
+    width: 500px; 
+    display: block; 
+    margin-bottom: 20px;
+}
+
+/* info*/
+.info{
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/*social*/
+.social{
+    margin: o auto;
+    text-align: center;
+
+    
+}
+
+.social ul{
+    list-style-type: none;
+}
+
+.social li{
+    display: inline-block;
+    margin: 0 50px;
+}
